@@ -1,0 +1,117 @@
+body {
+    font-family: 'Rubik Microbe', cursive;
+    background-color: #363636;
+    text-align: center;
+}
+
+.fundo {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background: url(../image/FundoGame.png) no-repeat scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.linhav {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+header {
+    padding: 10px 0;
+    font-size: 48px;
+    color: black;
+}
+
+.quadrado {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    -margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.quadradoborder {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    -margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    border: 5px solid black;
+}
+
+.quadradoborderv {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    -margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.quadradoborderh {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    -margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.tabuleiro {
+    background-color: rgba(34, 139, 34, 0.4);
+    margin: 0 32%;
+}
+
+.jogador,
+.vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    padding: 15px 0;
+    border-top: 3px solid navy;
+    margin-top: 20px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+    <meta charset="UFT-8">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="fundo">
+
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
+    <div class="tabuleiro">
+        <div>
+            <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="2" class="quadradoborderv" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+
+        <div>
+            <div id="4" class="quadradoborderh" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="5" class="quadradoborder" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="6" class="quadradoborderh" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+
+        <div>
+            <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="8" class="quadradoborderv" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+    </div>
+
+    <div class="jogador">
+        <label>
+        Jogador:
+    </label>
+        <label id="jogador-selecionado">
+
+    </label>
+    </div>
+
+    <div class="vencedor">
+        <label>
+        Vencedor:
+    </label>
+        <label id="vencedor-selecionado">
+
+    </label>
+    </div>
+
+    <div>
+        <button onclick="reiniciar()">
+        Reiniciar
+    </button>
+    </div>
+
+    <footer>
+        <p>Desenvolvimento Augusto 2022</p>
+    </footer>
+
+</body>
+
+<script src="js/velha.js"></script>
+
+</html>
