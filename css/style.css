@@ -87,7 +87,7 @@ header {
     border-bottom: 5px solid black;
 }
 
-.tabuleiro {
+tabuleiro {
     background-color: rgba(34, 139, 34, 0.4);
     margin: 0 32%;
 }
